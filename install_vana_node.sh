@@ -35,7 +35,7 @@ mkdir sixgpt && cd sixgpt
 # Запрос у пользователя приватного ключа и установка переменных окружения
 read -p "Введите ваш VANA_PRIVATE_KEY: " VANA_PRIVATE_KEY
 export VANA_PRIVATE_KEY=$VANA_PRIVATE_KEY
-export VANA_NETWORK=satori
+export VANA_NETWORK=mokhsa
 
 # Создание файла docker-compose.yml с необходимой конфигурацией
 cat <<EOF > docker-compose.yml
